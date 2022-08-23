@@ -10,8 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
-    
+.container{    
     display: flex;
     width: 90%;
     height: auto;
@@ -19,21 +18,15 @@ body{
     margin: 3% auto;
 }
 
-
-
 .box{
     width: 30%;
     box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+    background-color: white;
 }
 
 .box, .btn{
     border-radius: 5px;
 }
-
-.picture{
-    height: auto !important;
-}
-
 
 img{
     width: 100%;
@@ -43,8 +36,7 @@ img{
 }
 
 .text{
-    padding: 2rem;
-    background-color: white;
+    padding: 1.8rem 2rem 2rem 2rem;
 }
 
 h1 {
@@ -79,7 +71,7 @@ i{
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
     .container{
         flex-direction: column;
         margin-top: 2.5rem;
