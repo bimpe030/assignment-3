@@ -33,6 +33,19 @@ img{
     height: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .8s ease-in-out;
+}
+
+.picture:hover img{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.picture{
+    overflow: hidden;
 }
 
 .text{
